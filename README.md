@@ -9,7 +9,14 @@ General Python Repo for Perturb-Seq
 ### How to run:
 For regression:
 
-<code> python3 main.py --lr=1e-2 --decay=1e-4 --loss=MAE  --dataset=Akana <code>
+<code> python3 main.py --lr=1e-2 --decay=1e-4 --loss=MAE  --dataset=Akana </code>
 
-<code> python3 main.py --lr=1e-2 --decay=1e-4 --loss=FAR  --dataset=Akana <code>
+<code> python3 main.py --lr=1e-2 --decay=1e-4 --loss=FAR  --dataset=Akana </code>
 
+For classification:
+
+<code> python3 class_main.py --lr=1e-2 --decay=1e-4 --loss=CE  --dataset=Akana </code>
+
+<code> python3 class_main.py --lr=1e-2 --decay=1e-4 --loss=CS  --dataset=Akana </code>
+
+<code> python3 class_main.py --lr=1e-2 --decay=1e-4 --loss=LDR  --dataset=Akana </code>
