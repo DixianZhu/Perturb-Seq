@@ -31,3 +31,27 @@ Roughly scan through some results on the 1-st fold with raw eyes, for the valida
 - The averaged MAE for regression performance can be achieved ~ 0.28; averaged Pearson correlation can be achieved ~ 0.33.
 
 More detailed analysis and future research will be required for publishing a paper.
+
+
+:page_with_curl: Citation
+---------
+If you find FAR and/or LDR are useful in your work, please cite the following paper:
+```
+@misc{zhu2024function,
+      title={Function Aligned Regression: A Method Explicitly Learns Functional Derivatives from Data}, 
+      author={Dixian Zhu and Livnat Jerby-Arnon},
+      year={2024},
+      eprint={2402.06104},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+```
+@inproceedings{zhu2023label,
+	title={Label Distributionally Robust Losses for Multi-class Classification: Consistency, Robustness and Adaptivity},
+	author={Zhu, Dixian and Ying, Yiming and Yang, Tianbao},
+	booktitle={Proceedings of the 40th International Conference on Machine Learning},
+	year={2023}
+	}  
+```
+
