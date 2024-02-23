@@ -7,6 +7,8 @@ General Python Repo for Perturb-Seq
 - Current we have some regression and classification baseline models including: <code>MAE, MSE, Huber, RNC, ConR, FAR</code> (for regression) and <code>CE, CS, WW, SCE, GCE, LDR</code> (for classification).
 
 ### How to run:
+Run the automatic 5-fold-validation code.
+
 For regression:
 
 <code> python3 main.py --lr=1e-2 --decay=1e-4 --loss=MAE  --dataset=Akana </code>
