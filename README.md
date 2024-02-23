@@ -20,3 +20,12 @@ For classification:
 <code> python3 class_main.py --lr=1e-2 --decay=1e-4 --loss=CS  --dataset=Akana </code>
 
 <code> python3 class_main.py --lr=1e-2 --decay=1e-4 --loss=LDR  --dataset=Akana </code>
+
+
+The validation code automatically run 5-fold-cross-validation and print out evaluation performance for training and validation. The backbone model is a 7-layer Feed Forward Neural Network.
+### Initial findings:
+Roughly scan through some results on the 1-st fold with raw eyes: 
+- The averaged accuracy for classification performance can be achieved ~ 0.65; averaged AUROC can be achieved ~ 0.7.
+- The averaged MAE for regression performance can be achieved ~ 0.28; averaged Pearson correlation can be achieved ~ 0.33.
+
+More detailed analysis and future research will be required for publishing a paper.
