@@ -22,7 +22,7 @@
 
 <code> pip3 install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu121.html </code>
 
-<code> pip3 install flash-attn==1.0.4 </code>  //make sure you got GPU allocated when run this command, e.g. hit a developer session <code> srun -p dev --time=2:00:00 --mem=16GB --gpus=1 --pty bash </code>
+<code> pip3 install flash-attn==1.0.4 </code>  //make sure you got GPU allocated when run this command, e.g. hit a developer session <code>srun -p dev --time=2:00:00 --mem=16GB --gpus=1 --pty bash </code>
 
 // Sherlock for light workload (fine-tune) job
 
